@@ -7,14 +7,74 @@
     <link rel="stylesheet" href="another.css">
 </head>
 <body>
-    
-     <h1> this is heading tag</h1>
+    <header>
 
-     <div> 
-        <h3>Rakib images.</h3>
-        <img src="./images/IMG_0890.JPG" alt="comming soon">
-        <img src="./images/IMG_0891.JPG" alt="">
-        <img src="./images/IMG_0892.JPG" alt="">
-     </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#"> contact</a></li>
+            <li><a href="#">Bio</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Welcome to my simple web repo.</h1>
+        <p>This is a basic HTML page with a header and a main section.</p>
+
+        <section>
+            <form>
+               <fieldset>
+                <legend>
+                    <h2>contacts us</h2>
+
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required> <br>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </legend>
+               </fieldset>
+                
+               <fieldset>
+                <legend>
+                    <h2>basic info</h2>
+                    <input type="radio" name="pitha" id="chitoy">
+                    <label for="chitoy">chitoy petha</label>
+
+                    <input type="radio" name="pitha" id="chitpeta">
+                    <label for="chitpeta">dall puri</label>
+
+                    <input type="radio" name="pitha" id="kala">
+                    <label for="kala">kala bhuna</label>
+                </legend>
+               </fieldset>
+               <fieldset>
+                <legend>
+                    <h2>vhorta section</h2>
+                    <input type="checkbox" name="vhorta" id="beguni">
+                    <label for="beguni">sorisha vorta</label>
+                    <input type="checkbox" name="vhorta" id="beguni">
+                    <label for="beguni">beguni vorta</label>
+                    <input type="checkbox" name="vhorta" id="beguni">
+                    <label for="beguni">alu vorta</label>
+                    <input type="checkbox" name="vhorta" id="beguni">
+                    <label for="beguni">shutki vorta</label>
+                    <input type="checkbox" name="vhorta" id="beguni">
+                    <label for="beguni">shorshe ilish vorta</label>
+                </legend>
+               </fieldset>
+                <fieldset>
+                 <legend>
+                      <h2>extera information</h2>
+                     
+                        <label for="control"></label>
+                        <textarea class="form-control" name="" id="control" rows="3"></textarea>
+                      </div>
+                       
+                 </legend>
+                  <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+            </form>
+        </section>
+        
 </body>
 </html>
