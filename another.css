@@ -1,0 +1,15 @@
+
+ h1{ color: red;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    border-radius: 12px;
+
+}
+
+p {
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
