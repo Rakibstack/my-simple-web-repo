@@ -13,3 +13,9 @@ p {
     text-align: center;
     text-decoration: underline;
 }
+img{
+    width:120px;
+  
+    border-radius: 10px;
+    
+}
